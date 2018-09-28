@@ -1,0 +1,45 @@
+/* PHASE 12: Modal */
+.modal {
+  visibility: hidden;
+}
+
+.modal-screen {
+  position: fixed;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.modal-form {
+  position: absolute;
+  margin: auto 0;
+  top: 20%;
+  left: 35%;
+  width: 35%;
+  height: 300px;
+  z-index: 3;
+  background-color: white;
+  padding: 25px;
+  border-radius: 2%;
+}
+
+.modal-form h1{
+  font-size: 20pt;
+  margin: auto;
+}
+
+.sign-in-form {
+  border: 1px solid grey;
+  width: 80%;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5%
+}
+
+.is-open {
+  visibility: visible;
+}

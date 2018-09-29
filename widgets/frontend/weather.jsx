@@ -7,7 +7,7 @@ class Weather extends React.Component {
     this.state = {
       // data:
     };
-    this.APICall = this.APICall.bind(this);
+    this.setState = this.setState.bind(this);
   }
 
   APICall(e){
